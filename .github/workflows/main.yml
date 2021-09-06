@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: bestGaming1320/test@v1.0.1
+        uses: bestGaming1320/test@v1.0.2
         with:
           fileN: file1.txt
       # Use the output from the `hello` step

@@ -9,7 +9,7 @@ jobs:
         id: hello
         uses: bestGaming1320/test@v1.0.1
         with:
-          who-to-greet: 'me?'
+          fileN: file1.txt
       # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+#      - name: Get the output time
+#       run: echo "The time was ${{ steps.hello.outputs.time }}"
